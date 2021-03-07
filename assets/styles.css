@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    @apply font-sans bg-white text-black w-full;
+}
+
+h1 {
+    @apply tracking-tight text-3xl font-extrabold mt-6 mb-2;
+}
+
+h2 {
+    @apply text-2xl font-bold mt-6 mb-2;
+}
+
+h3 {
+    @apply font-bold;
+}
+
+h3,
+h4,
+h5 {
+    @apply text-xl mt-2 mb-1;
+}
+
+h6,
+p {
+    @apply text-lg text-gray-700 mt-2 mb-1;
+}
+
+a {
+    @apply text-indigo-500 transition-colors duration-200;
+}
+
+a:hover {
+    @apply text-indigo-700;
+}
+
+pre {
+    @apply my-3 px-6 rounded overflow-hidden;
+}
+
+code {
+    @apply font-mono text-sm;
+}
+
+:not(pre) > code {
+    @apply bg-gray-200 px-1 rounded-sm;
+}
+
+hr {
+    @apply mt-4 mb-3;
+}
+
+/* Customs */
+.box {
+    @apply px-6 py-4 md:px-16 md:py-10;
+}
+
+/* Highlight */
+.saber-highlight {
+    @apply bg-gray-100 my-3 !important;
+}
+
+.code-line.highlighted {
+    @apply bg-indigo-600 bg-opacity-10 !important;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    background: inherit !important;
+}

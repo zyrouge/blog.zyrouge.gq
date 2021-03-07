@@ -1,0 +1,277 @@
+{
+  "baseURL": "https://blog.zyrouge.gq/",
+  "pages": [
+    {
+      "title": "Updating a Key",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645681,
+      "excerpt": "How to update a key in Sequelize Model",
+      "tags": [
+        "nodejs",
+        "sequelize"
+      ],
+      "permalink": "/sequelize/updating-keys-in-model",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Getting started with Sequelize",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645681,
+      "excerpt": "What is Sequelize and how to use it",
+      "tags": [
+        "nodejs",
+        "sequelize"
+      ],
+      "permalink": "/sequelize/getting-started",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Finding a Key",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645681,
+      "excerpt": "How to find a specific key in the Database",
+      "tags": [
+        "nodejs",
+        "sequelize"
+      ],
+      "permalink": "/sequelize/find-keys-in-model",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Finding all the Keys",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645681,
+      "excerpt": "How to find all the keys in a Sequelize Model",
+      "tags": [
+        "nodejs",
+        "sequelize"
+      ],
+      "permalink": "/sequelize/find-all-keys-in-model",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Deleting a Key",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102646269,
+      "excerpt": "How to delete a key in Sequelize Model",
+      "tags": [
+        "nodejs",
+        "sequelize"
+      ],
+      "permalink": "/sequelize/delete-key-in-model",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Creating Models",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645773,
+      "excerpt": "How to define Models in Sequelize",
+      "tags": [
+        "nodejs",
+        "sequelize"
+      ],
+      "permalink": "/sequelize/creating-models",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Creating a Key",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645681,
+      "excerpt": "How to create a Key in Sequelize Model",
+      "tags": [
+        "nodejs",
+        "sequelize"
+      ],
+      "permalink": "/sequelize/creating-keys-and-models",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Getting Started with NodeJS",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615089126618,
+      "excerpt": "Installing NodeJS & NPM packages",
+      "tags": [
+        "nodejs"
+      ],
+      "permalink": "/nodejs/getting-started",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "The Basics",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615089126618,
+      "excerpt": "Understanding the basics of ExpressJS",
+      "tags": [
+        "nodejs",
+        "expressjs"
+      ],
+      "permalink": "/express/basics",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Rank card using canvas",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645682,
+      "excerpt": "How to create a awesome rank card using only canvas!",
+      "tags": [
+        "nodejs",
+        "discordjs"
+      ],
+      "permalink": "/discordjs/rank-card",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Prefix command",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615089126618,
+      "excerpt": "Making a Custom Prefix Command in Discord.js",
+      "tags": [
+        "nodejs",
+        "discordjs"
+      ],
+      "permalink": "/discordjs/prefix-cmd",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Kick command",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645682,
+      "excerpt": "Making a Kick Command using Discord.js",
+      "tags": [
+        "nodejs",
+        "discordjs"
+      ],
+      "permalink": "/discordjs/kick-cmd",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Events",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645682,
+      "excerpt": "Understanding Discord.js events",
+      "tags": [
+        "nodejs",
+        "discordjs"
+      ],
+      "permalink": "/discordjs/events",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Events Handlers",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645682,
+      "excerpt": "Making a simple Events handler",
+      "tags": [
+        "nodejs",
+        "discordjs"
+      ],
+      "permalink": "/discordjs/event-handler",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Commands Handlers",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102645682,
+      "excerpt": "Loads commands and run it with event handlers",
+      "tags": [
+        "nodejs",
+        "discordjs"
+      ],
+      "permalink": "/discordjs/command-handler",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    },
+    {
+      "title": "Coding Discord Bot using discord.js",
+      "type": "post",
+      "createdAt": 1614902400000,
+      "updatedAt": 1615102739009,
+      "excerpt": "How to use discord.js to run a bot",
+      "tags": [
+        "nodejs",
+        "discordjs"
+      ],
+      "permalink": "/discordjs/coding",
+      "authorInfo": {
+        "fullName": "Zyrouge",
+        "image": "/images/zyrouge.png",
+        "name": "Zyrouge"
+      }
+    }
+  ],
+  "producedAt": 1615102739074
+}
