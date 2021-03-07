@@ -23,7 +23,7 @@ jobs:
                   git config --local user.name "Beep Boop [bot]"
 
             - name: Generate (docs)
-              run: npm install -D && npm run build && npm run deploy
+              run: npm install -D && npm run build
 
             - name: Push
               uses: peaceiris/actions-gh-pages@v3
