@@ -33,7 +33,7 @@ const config = {
 const start = () => {
     console.log("Starting cleanup");
     for (const file of config.deletables) {
-        fs.unlinkSync(file);
+        fs.rmSync(file, { recursive: true });
         console.log(`Deleted ${file}`);
     }
 
