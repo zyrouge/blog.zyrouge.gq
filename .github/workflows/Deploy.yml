@@ -17,5 +17,16 @@ jobs:
               with:
                   node-version: "12.18.3"
 
+            - name: Commit files
+              run: |
+                  git config --local user.email "bot@zyrouge.gq"
+                  git config --local user.name "Beep Boop [bot]"
+
             - name: Generate (docs)
               run: npm install -D && npm run build && npm run deploy
+
+            - name: Push
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./docs
