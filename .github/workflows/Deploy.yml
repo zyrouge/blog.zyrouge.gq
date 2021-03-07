@@ -15,12 +15,7 @@ jobs:
             - name: Use NodeJS v12.18.3
               uses: actions/setup-node@v1
               with:
-                  node-version: "12.18.3"
-
-            - name: Commit files
-              run: |
-                  git config --local user.email "bot@zyrouge.gq"
-                  git config --local user.name "Beep Boop [bot]"
+                  node-version: 12.18.3
 
             - name: Generate (docs)
               run: npm install -D && npm run build
