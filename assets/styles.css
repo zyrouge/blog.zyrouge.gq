@@ -65,7 +65,7 @@ hr {
 }
 
 ul {
-    @apply list-disc;
+    @apply list-disc list-inside;
 }
 
 /* Customs */
