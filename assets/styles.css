@@ -64,6 +64,10 @@ hr {
     @apply mt-4 mb-3;
 }
 
+ul {
+    @apply list-disc;
+}
+
 /* Customs */
 .box {
     @apply px-6 py-4 md:px-16 md:py-10;
