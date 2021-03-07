@@ -157,7 +157,7 @@
       "title": "Rank card using canvas",
       "type": "post",
       "createdAt": 1614902400000,
-      "updatedAt": 1615102645682,
+      "updatedAt": 1615104367381,
       "excerpt": "How to create a awesome rank card using only canvas!",
       "tags": [
         "nodejs",
@@ -273,5 +273,5 @@
       }
     }
   ],
-  "producedAt": 1615102739074
+  "producedAt": 1615104429999
 }

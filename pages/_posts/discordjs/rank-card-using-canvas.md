@@ -15,7 +15,7 @@ Output:
 
 <img src="https://media.discordapp.net/attachments/706710007441260595/719947058047352862/rank.png">
 
-<Admonition type="warning">
+<Admonition type="warn">
 The above using a different font
 </Admonition>
 
