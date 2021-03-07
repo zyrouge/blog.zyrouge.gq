@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
+const base = path.resolve(__dirname, "..");
 const config = {
     deletables: [
         ".github",
@@ -23,7 +24,7 @@ const config = {
         "saber-config.yml",
         "saber-node.js",
         "tailwind.config.js"
-    ].map(x => path.join(__dirname, x)),
+    ].map(x => path.join(base, x)),
     gitignore: [
         "scripts"
     ].join("\n")
