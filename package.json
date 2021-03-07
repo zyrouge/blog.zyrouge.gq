@@ -2,11 +2,13 @@
   "private": true,
   "scripts": {
     "dev": "saber",
-    "build": "saber build"
+    "build": "saber build",
+    "deploy": "gh-pages -d docs -t"
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^3.1.0",
     "postcss": "^7.0.35",
     "saber": "latest",
     "saber-plugin-feed": "latest",

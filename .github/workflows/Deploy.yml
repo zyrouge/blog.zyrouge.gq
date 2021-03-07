@@ -18,21 +18,4 @@ jobs:
                   node-version: "12.18.3"
 
             - name: Generate (docs)
-              run: npm install && npm run build
-
-            - name: Delete files
-              run: node scripts/build
-
-            - name: Commit files
-              run: |
-                  git config --local user.email "bot@zyrouge.gq"
-                  git config --local user.name "Beep Boop [bot]"
-                  git add .
-                  git commit -m "✨ Generated Site"
-
-            - name: Push changes to gh-pages
-              uses: ad-m/github-push-action@master
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: gh-pages
-                  force: true
+              run: npm install -D && npm run build && npm run deploy
