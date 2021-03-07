@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const cp = require("child_process");
 
 const base = path.resolve(__dirname, "..");
 const config = {
@@ -33,7 +34,7 @@ const config = {
 const start = () => {
     console.log("Starting cleanup");
     for (const file of config.deletables) {
-        fs.rmSync(file, { recursive: true });
+        deleteSync(file, { recursive: true });
         console.log(`Deleted ${file}`);
     }
 
@@ -42,3 +43,7 @@ const start = () => {
 }
 
 start();
+
+function deleteSync(path) {
+    return cp.execSync(`rm -rf ${path}`);
+}
