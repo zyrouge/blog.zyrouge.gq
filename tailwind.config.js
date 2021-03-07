@@ -1,6 +1,7 @@
 module.exports = {
     purge: [
-        ...["assets", "components", "layouts", "pages"].map(x => `./${x}/**/*`)
+        ...["assets", "components", "layouts", "pages"].map(x => `./${x}/**/*`),
+        "saber-config.yml"
     ],
     theme: {
         extend: {

@@ -8,15 +8,15 @@ siteConfig:
     description: Write an awesome description for your new site here. You can edit this line in saber-config.yml. It will appear in your document head meta (for Google search results) site description.
     tags:
         expressjs:
-            bgColor: green-400
+            bgColor: bg-green-400
         discordjs:
-            bgColor: blue-400
+            bgColor: bg-blue-400
         nodejs:
-            bgColor: green-600
+            bgColor: bg-green-600
         sequelize:
-            bgColor: blue-600
+            bgColor: bg-blue-600
         default:
-            bgColor: indigo-600
+            bgColor: bg-indigo-600
     authors:
         Zyrouge:
             fullName: Zyrouge

@@ -19,8 +19,8 @@ export default {
             const tagConf =
                 this.$siteConfig.tags[tag] || this.$siteConfig.tags.default;
 
-            classes.push(`bg-${tagConf.bgColor}`);
-            classes.push(`text-${tagConf.textColor || "white"}`);
+            classes.push(tagConf.bgColor);
+            classes.push(tagConf.textColor || "text-white");
             return classes;
         }
     }
