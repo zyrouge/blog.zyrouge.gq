@@ -12,7 +12,7 @@ export default ({ setHead }) => {
             },
             {
                 rel: 'icon',
-                href: '../assets/images/favicon.png'
+                href: '/images/favicon.png'
             }
         ]
     })
