@@ -9,6 +9,10 @@ export default ({ setHead }) => {
             {
                 rel: 'stylesheet',
                 href: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,400&family=Fira+Code&display=swap'
+            },
+            {
+                rel: 'icon',
+                href: '../assets/images/favicon.png'
             }
         ]
     })
